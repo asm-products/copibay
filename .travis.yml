@@ -8,7 +8,7 @@ deploy:
   provider: heroku
   app: copibay-assembled
   api_key:
-    secure: "jfLjkW/tXS+NPKnW9ww6PFzuR6DWykn+1hTicvJcJ7/iR0MTTJgtTa6ttoz1notv82Y2Df0xRWLjQ0GDrj9NyIjoFbHX6OhOHLP1iT+B/6jchtYDoENYHUre9nLtab3S1gdzwZYeYVUkLEmsEsq5o8bm8J0pTTSmEHTHOEHT4O4="
+    secure: "anVEGNzWHfXyhUtqZ3KMPt4zZP+ZY+EA6cBKUtiVQvNEfLpOl5f495fpzvmH5/DvcfRMhtMW9+emXfRhy/RE2xGesXf5mKgOTjOnFaah2xAfw6qbdSStSNKhO/ZVOFh2bOHvcSV06TKXkUSiniO/TYpdprt6PbYl6/JPD7B1UDM="
   strategy: git
 before_deploy:
 - git fetch --unshallow
